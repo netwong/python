@@ -12,8 +12,8 @@ Created on Sun Feb  9 11:21:31 2020
 import cv2
 
 # The Haar Classifiers 
-face_cascade = cv2.CascadeClassifier('opt/anaconda3/lib/python3.7/site-packages/cv2/data/haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('opt/anaconda3/lib/python3.7/site-packages/cv2/data/haarcascade_eye.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
 # Read in the img
 img = cv2.imread('p7.jpg')
